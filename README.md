@@ -29,9 +29,10 @@ public class Developer {
     System.out.println(printbuff.toString());
   }
 
-public static void main(String [] args) {
-  Developer cyjang = new Developer();
-  cyjang.introduce();
+  public static void main(String [] args) {
+    Developer cyjang = new Developer();
+    cyjang.introduce();
+  }
 }
   ```
 
