@@ -14,17 +14,17 @@ public class Developer {
   
   private void introduce() {
     StringBuffer printbuff = new StringBuffer();
-	  printbuff
-	  	.append(String.format("이름\t: %s%n", this.name))
-	  	.append(String.format("닉네임\t: %s%n", this.nickName))
-	  	.append(String.format("성별\t: %s%n", this.gender))
-	  	.append(String.format("이메일\t: %s%n", this.email))
-	  	.append(String.format("생년월일\t: %s%n", this.birth))
-	  	.append(String.format("사용기술\t: %s%n", Arrays.asList(techStack)))
-	  	.append(String.format("취미\t: %s%n", Arrays.asList(hobbys)))
-      .append(String.format("목표\t: %s%n", goal))
-      .append(String.format("경력\t: %s%n", career))
-	  ;
+    printbuff
+        .append(String.format("이름\t: %s%n", this.name))
+	.append(String.format("닉네임\t: %s%n", this.nickName))
+	.append(String.format("성별\t: %s%n", this.gender))
+	.append(String.format("이메일\t: %s%n", this.email))
+	.append(String.format("생년월일\t: %s%n", this.birth))
+	.append(String.format("사용기술\t: %s%n", Arrays.asList(techStack)))
+	.append(String.format("취미\t: %s%n", Arrays.asList(hobbys)))
+      	.append(String.format("목표\t: %s%n", goal))
+      	.append(String.format("경력\t: %s%n", career))
+    ;
 	  
     System.out.println(printbuff.toString());
   }
