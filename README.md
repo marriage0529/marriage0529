@@ -34,3 +34,7 @@ public static void main(String [] args) {
   cyjang.introduce();
 }
   ```
+
+
+### Notion 이력서 링크
+<a href="https://dev-doritos.notion.site/Back-End-4d6dff8c708745bb8a4e47df80199640" target="_blank">https://dev-doritos.notion.site/Back-End-4d6dff8c708745bb8a4e47df80199640</a>
