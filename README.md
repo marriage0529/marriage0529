@@ -7,7 +7,7 @@ public class Developer {
   private String gender       = "남자";
   private String email        = "wognsl34@daum.net";
   private String birth        = "19931018";
-  private String [] techStack = {"Java", "String", "Oracle", "MySQL", "Javascript"};
+  private String [] techStack = {"Java", "Spring-Framework", "Oracle", "MySQL", "Javascript"};
   private String [] hobbys    = {"영화감상", "맛있는 음식먹기", "맨몸운동", "기타연주"};
   private String goal         = "더 나은 개발자 되기";
   private String career       = "2017.12 ~";
