@@ -12,7 +12,7 @@ public class Developer {
   private String goal         = "더 나은 개발자 되기";
   private String career       = "2017.12 ~";
   
-  private void introduce() {
+  public void introduce() {
     StringBuffer printbuff = new StringBuffer();
     printbuff
         .append(String.format("이름\t: %s%n", this.name))
