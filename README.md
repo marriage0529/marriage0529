@@ -1,21 +1,19 @@
-### 웹(Back-End) 개발자 장찬양을 소개 합니다!
+### BackEnd 개발자 장찬양을 소개 합니다!
 
 ```java
-public class Developer {
-  private String name         = "장찬양";
+public class DeveloperDoritos {
   private String nickName     = "Doritos"; // 좋아하는 과자..
   private String gender       = "남자";
   private String email        = "wognsl34@daum.net";
   private String birth        = "19931018";
-  private String [] techStack = {"Java", "Spring-Framework", "Oracle", "MySQL", "Javascript"};
+  private String [] techStack = {"Java", "Spring", "Oracle", "MySQL", "Javascript", "TCP 통신(Socket[BIO/NIO/NETTY])"};
   private String [] hobbys    = {"영화감상", "맛있는 음식먹기", "맨몸운동", "기타연주"};
   private String goal         = "더 나은 개발자 되기";
   private String career       = "2017.12 ~";
   
   public void introduce() {
-    StringBuffer printbuff = new StringBuffer();
-    printbuff
-        .append(String.format("이름\t: %s%n", this.name))
+    StringBuilder builder = new StringBuilder();
+    builder
 	.append(String.format("닉네임\t: %s%n", this.nickName))
 	.append(String.format("성별\t: %s%n", this.gender))
 	.append(String.format("이메일\t: %s%n", this.email))
@@ -26,12 +24,12 @@ public class Developer {
       	.append(String.format("경력\t: %s%n", career))
     ;
 	  
-    System.out.println(printbuff.toString());
+    System.out.println(builder.toString());
   }
 
   public static void main(String [] args) {
-    Developer cyjang = new Developer();
-    cyjang.introduce();
+    DeveloperDoritos doritos = new Developer();
+    doritos.introduce();
   }
 }
   ```
